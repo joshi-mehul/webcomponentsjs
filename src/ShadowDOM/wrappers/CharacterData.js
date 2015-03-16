@@ -28,8 +28,8 @@
     get nodeValue() {
       return this.data;
     },
-    set nodeValue() {
-      return this.data;
+    set nodeValue(value) {
+      this.data=value;
     },
     get textContent() {
       return this.data;
